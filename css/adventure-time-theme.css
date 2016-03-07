@@ -13,8 +13,8 @@ body{
 background-color:#f2f2f2;
 color:#797979;
 font-family: sans-serif;
-padding: 0px !important;
-margin:0px !important;
+padding: 0 !important;
+margin:0 !important;
 font-size: 13px
 }
 .fa{
@@ -31,11 +31,7 @@ color:white;
 float:left;
 margin-top:20px;
 }
-a, a:hover , a:focus{
-text-decoration: none;
-outline:none;
-background-color:rgba(226,110,171,0.1);
-}
+
 #top_menu .nav  li, ul.top-menu li {
 float: left;
 }
@@ -56,7 +52,7 @@ margin-top: 15px;
 .header{
 left:0;
 right:0;
-z-index: 1002;
+z-index:1010;
 }
 .header{
 min-height: 63px;
@@ -103,9 +99,9 @@ padding-bottom: 10px;
 }
 ul .sidebar-menu li{
 line-height: 20px !important;
-margin-bottom: 5px;
-margin-left:10px;
-margin-right: 10px;
+margin-bottom: 6px;
+margin-left:12px;
+margin-right: 12px;
 }
 .mt{
 margin-top:25px;
@@ -164,7 +160,8 @@ text-decoration: none;
 display: block;
 padding: 15px 0 15px 10px;
 font-size: 12px;
-outline: none;
+background-color: transparent;
+border: 1px solid #9c4c9d;
 }
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
 background: #9c4c9d;
@@ -176,10 +173,10 @@ font-size: 15px;
 padding-right: 6px;
 }
 ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i {
-color: #fff;
+color: white;
 }
 ul.sidebar-menu li a.active i {
-color: #fff;
+color: white;
 }
 .mail-info, .mail-info:hover {
 margin: -3px 6px 0 0;
@@ -195,7 +192,7 @@ display:list-item;
 .form-login{
 max-width: 330px;
 margin:100px auto 0;
-background-color: #fff;
+background-color: white;
 border-radius: 8px;
 }
 .form-login h2.form-login-heading {
@@ -204,7 +201,7 @@ padding: 25px 20px;
 text-align: center;
 background: #68dff0;
 border-radius: 5px 5px 0 0;
-color: #fff;
+color: white;
 font-size: 20px;
 text-transform: uppercase;
 font-weight: 300;
@@ -284,7 +281,7 @@ display: inline-block;
 font-size: 20px;
 color:white;
 }
-.sidebar-closed > #sidebar > ul {
+.sidebar-closed  #sidebar  ul {
 display: none;
 }
 .sidebar-closed #main-content {
@@ -302,10 +299,10 @@ margin-top: 80px;
 margin-bottom: 40px;
 }
 .box1 {
-padding: 15px;
+padding: 20px 15px 15px 20px;
 text-align: center;
 color: #989898;
-border-bottom: 1px solid #989898;
+border-bottom: 1px solid #9d4c9d;
 }
 .box1 span {
 font-size: 50px;
@@ -314,11 +311,12 @@ font-size: 50px;
 text-align: center;
 }
 .box0:hover .box1 {
-border-bottom: 1px solid #ffffff;
+border-bottom: 1px solid #f2f2f2;
+font-style: italic;
 }
 .box0 p {
 text-align: center;
-font-size: 12px;
+font-size: 13px;
 color: #f2f2f2;
 }
 .box0:hover p {
@@ -327,17 +325,6 @@ color: #e26eab;
 .box0:hover {
 background: #ffffff;
 box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
-}
-.notify-row {
-float: left;
-margin-top: 15px;
-margin-left: 92px;
-}
-.notify-row .notification span.label {
-display: inline-block;
-height: 18px;
-width: 20px;
-padding: 5px;
 }
 ul.top-menu li  a:hover, ul.top-menu  li  a:focus {
 border:1px solid #b6b6b6 !important;
@@ -404,4 +391,17 @@ margin:0;
 }
 .img-responsive:hover{
 opacity:.2;
+}
+form a,form a:hover,form a:focus {
+	background-color:white;
+	text-decoration: none;
+	color:#68dff0;
+}
+a, a:hover , a:focus{
+text-decoration: none;
+outline:none;
+background-color:rgba(226,110,171,0.1);
+}
+.fa{
+	color:black;
 }
